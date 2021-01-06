@@ -1,0 +1,78 @@
+<table border = "1">
+  <tr>
+    <th>Имя</th>
+    <th>Возраст</th> 
+    <th>Суперспособность</th>
+  </tr>
+  <tr>
+    <td>Логан</td>
+    <td>186</td> 
+    <td>Повышенная способность к регенерации</td>
+  </tr>
+  <tr>
+    <td>Профессор икс</td>
+      <td>94</td>
+    <td>Чтение мыслей, вызов иллюзий, временного паралича, способность останавливать время</td> 
+  </tr>
+</table>
+
+<table border="1">
+  <caption>Сотрудники отдела поддержки</caption>
+  <thead>
+    <tr>
+      <th>Имя</th>
+      <th>Должность</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Петя</td>
+      <td>Менеджер</td>
+    </tr>
+    <tr>
+      <td>Маша</td>
+      <td>Разработчик</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Вася</td>
+      <td>Девопс</td>
+    </tr>
+  </tfoot>
+</table>
+
+<table border="1">
+  <tr>
+    <td rowspan="2">Левая ячейка</td>
+    <td>Средняя ячейка</td>
+    <td>Правая ячейка</td>
+  </tr>
+  <tr>
+    <td colspan="2">Нижняя ячейка</td>
+  </tr>
+</table>
+
+<title>Один из возможных вариантов HTML формы</title>
+</head>
+<body>
+<form name="f1" method="get" action="enter_data.php">
+<input name="link" type="hidden" value="index.php" />
+Логин: <br />
+<input name="login" type="text" size="25" maxlength="30" value="Вася" /> <br />
+Пароль: <br />
+<input name="pd" type="password" size="25" maxlength="30" value="" /> <br />
+<input name="remember" type="checkbox" value="yes" /> Запомнить <br />
+<input type="submit" name="enter" value="Вход" />
+</form>
+</body>
+</html>
+
+<input type="radio" name="gender" value="male" checked> Мужской<br>
+<input type="radio" name="gender" value="female"> Женский<br>
+<input type="radio" name="gender" value="other"> Другой
+
+<input type="file">
+<input type="reset">
+<input type="submit">
+<button>Нажми на меня</button>
